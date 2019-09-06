@@ -67,8 +67,32 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
+}
+header {
+    display: flex;
+    
+    justify-content: space-between;
+    border: 1px solid green;
+    margin-bottom: 30px;
+    
+}
+
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border: 1px solid red;
+        width: 90%;
+        align-content: center;
+    }
+header .Lambda {
+    display: flex;
+    justify-content: left;
+    border: 1px solid blue;
+    width: 10%;
+    padding-right: 20px;
 }
 
 .top-content {
